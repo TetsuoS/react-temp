@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #1f3d79;
+  height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,7 +36,64 @@
     transform: rotate(360deg);
   }
 }
-
-.hello1 {color:blue}
-
-.hello2 {color: yellow}
+.main {
+  height: 80vh;
+}
+.side {
+  padding: 30px;
+  overflow: auto;
+}
+.space1 {
+  height: 10vh;
+  margin: 30;
+  background-color: blue;
+  text-align: center;
+}
+.space2 {
+  height: 10vh;
+  margin: 30;
+  background-color: rgb(60, 119, 21);
+  text-align: center;
+}
+.space3 {
+  height: 10vh;
+  margin-bottom: 30;
+  background-color: rgb(167, 75, 14);
+  text-align: center;
+}
+.space4 {
+  float: left;
+  height: 20vh;
+  width: 30vw;
+  padding: auto;
+  background-color: rgb(228, 224, 13);
+  text-align: center;
+}
+.space5 {
+  float: left;
+  height: 20vh;
+  width: 30vw;
+  padding: 30;
+  background-color: rgb(197, 9, 25);
+  text-align: center;
+}
+.space6 {
+  float: left;
+  height: 20vh;
+  width: 30vw;
+  padding: 30;
+  background-color: rgb(14, 149, 167);
+  text-align: center;
+}
+.space1Text {
+  font-size: 300;
+  color: beige;
+}
+.space2Text {
+  font-size: larger;
+  color: beige;
+}
+.space3Text {
+  font-size: small;
+  color: beige;
+}
